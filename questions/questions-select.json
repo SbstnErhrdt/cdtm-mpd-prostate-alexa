@@ -1,0 +1,480 @@
+{
+  "questions": [
+  {
+    "questionType": "SELECT",
+    "question": "Welches der Bilder stellt eine Katze dar?",
+    "rightAnswer": "cat",
+    "answers": [
+      {
+        "token": "cat",
+        "image": {
+          "contentDescription": "",
+          "sources": [
+            {
+              "url": "https://s3.eu-central-1.amazonaws.com/apoplex/select/0/0.jpg",
+              "widthPixels": 300,
+              "heightPixels": 300,
+              "size": "X_SMALL"
+            }
+          ]
+        },
+        "textContent": {
+          "primaryText": {
+            "text": "",
+            "type": "PlainText"
+          },
+          "secondaryText": {
+            "text": "",
+            "type": "PlainText"
+          },
+          "tertiaryText": {
+            "text": "",
+            "type": "PlainText"
+          }
+        }
+      },
+      {
+        "token": "dog",
+        "image": {
+          "contentDescription": "",
+          "sources": [
+            {
+              "url": "https://s3.eu-central-1.amazonaws.com/apoplex/select/0/1.jpg",
+              "widthPixels": 300,
+              "heightPixels": 300,
+              "size": "X_SMALL"
+            }
+          ]
+        },
+        "textContent": {
+          "primaryText": {
+            "text": "",
+            "type": "PlainText"
+          },
+          "secondaryText": {
+            "text": "",
+            "type": "PlainText"
+          },
+          "tertiaryText": {
+            "text": "",
+            "type": "PlainText"
+          }
+        }
+      },
+      {
+        "token": "mouse",
+        "image": {
+          "contentDescription": "",
+          "sources": [
+            {
+              "url": "https://s3.eu-central-1.amazonaws.com/apoplex/select/0/2.jpg",
+              "widthPixels": 300,
+              "heightPixels": 300,
+              "size": "X_SMALL"
+            }
+          ]
+        },
+        "textContent": {
+          "primaryText": {
+            "text": "",
+            "type": "PlainText"
+          },
+          "secondaryText": {
+            "text": "",
+            "type": "PlainText"
+          },
+          "tertiaryText": {
+            "text": "",
+            "type": "PlainText"
+          }
+        }
+      },
+      {
+        "token": "bird",
+        "image": {
+          "contentDescription": "",
+          "sources": [
+            {
+              "url": "https://s3.eu-central-1.amazonaws.com/apoplex/select/0/3.jpg",
+              "widthPixels": 300,
+              "heightPixels": 300,
+              "size": "X_SMALL"
+            }
+          ]
+        },
+        "textContent": {
+          "primaryText": {
+            "text": "",
+            "type": "PlainText"
+          },
+          "secondaryText": {
+            "text": "",
+            "type": "PlainText"
+          },
+          "tertiaryText": {
+            "text": "",
+            "type": "PlainText"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "questionType": "SELECT",
+    "question": "Welches der Bilder stellt einen Hund dar?",
+    "rightAnswer": "dog",
+    "answers": [
+      {
+        "token": "cat",
+        "image": {
+          "contentDescription": "",
+          "sources": [
+            {
+              "url": "https://s3.eu-central-1.amazonaws.com/apoplex/select/0/0.jpg",
+              "widthPixels": 300,
+              "heightPixels": 300,
+              "size": "X_SMALL"
+            }
+          ]
+        },
+        "textContent": {
+          "primaryText": {
+            "text": "",
+            "type": "PlainText"
+          },
+          "secondaryText": {
+            "text": "",
+            "type": "PlainText"
+          },
+          "tertiaryText": {
+            "text": "",
+            "type": "PlainText"
+          }
+        }
+      },
+      {
+        "token": "dog",
+        "image": {
+          "contentDescription": "",
+          "sources": [
+            {
+              "url": "https://s3.eu-central-1.amazonaws.com/apoplex/select/0/1.jpg",
+              "widthPixels": 300,
+              "heightPixels": 300,
+              "size": "X_SMALL"
+            }
+          ]
+        },
+        "textContent": {
+          "primaryText": {
+            "text": "",
+            "type": "PlainText"
+          },
+          "secondaryText": {
+            "text": "",
+            "type": "PlainText"
+          },
+          "tertiaryText": {
+            "text": "",
+            "type": "PlainText"
+          }
+        }
+      },
+      {
+        "token": "mouse",
+        "image": {
+          "contentDescription": "",
+          "sources": [
+            {
+              "url": "https://s3.eu-central-1.amazonaws.com/apoplex/select/0/2.jpg",
+              "widthPixels": 300,
+              "heightPixels": 300,
+              "size": "X_SMALL"
+            }
+          ]
+        },
+        "textContent": {
+          "primaryText": {
+            "text": "",
+            "type": "PlainText"
+          },
+          "secondaryText": {
+            "text": "",
+            "type": "PlainText"
+          },
+          "tertiaryText": {
+            "text": "",
+            "type": "PlainText"
+          }
+        }
+      },
+      {
+        "token": "bird",
+        "image": {
+          "contentDescription": "",
+          "sources": [
+            {
+              "url": "https://s3.eu-central-1.amazonaws.com/apoplex/select/0/3.jpg",
+              "widthPixels": 300,
+              "heightPixels": 300,
+              "size": "X_SMALL"
+            }
+          ]
+        },
+        "textContent": {
+          "primaryText": {
+            "text": "",
+            "type": "PlainText"
+          },
+          "secondaryText": {
+            "text": "",
+            "type": "PlainText"
+          },
+          "tertiaryText": {
+            "text": "",
+            "type": "PlainText"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "questionType": "SELECT",
+    "question": "Welches der Bilder stellt eine Maus dar?",
+    "rightAnswer": "mouse",
+    "answers": [
+      {
+        "token": "cat",
+        "image": {
+          "contentDescription": "",
+          "sources": [
+            {
+              "url": "https://s3.eu-central-1.amazonaws.com/apoplex/select/0/0.jpg",
+              "widthPixels": 300,
+              "heightPixels": 300,
+              "size": "X_SMALL"
+            }
+          ]
+        },
+        "textContent": {
+          "primaryText": {
+            "text": "",
+            "type": "PlainText"
+          },
+          "secondaryText": {
+            "text": "",
+            "type": "PlainText"
+          },
+          "tertiaryText": {
+            "text": "",
+            "type": "PlainText"
+          }
+        }
+      },
+      {
+        "token": "dog",
+        "image": {
+          "contentDescription": "",
+          "sources": [
+            {
+              "url": "https://s3.eu-central-1.amazonaws.com/apoplex/select/0/1.jpg",
+              "widthPixels": 300,
+              "heightPixels": 300,
+              "size": "X_SMALL"
+            }
+          ]
+        },
+        "textContent": {
+          "primaryText": {
+            "text": "",
+            "type": "PlainText"
+          },
+          "secondaryText": {
+            "text": "",
+            "type": "PlainText"
+          },
+          "tertiaryText": {
+            "text": "",
+            "type": "PlainText"
+          }
+        }
+      },
+      {
+        "token": "mouse",
+        "image": {
+          "contentDescription": "",
+          "sources": [
+            {
+              "url": "https://s3.eu-central-1.amazonaws.com/apoplex/select/0/2.jpg",
+              "widthPixels": 300,
+              "heightPixels": 300,
+              "size": "X_SMALL"
+            }
+          ]
+        },
+        "textContent": {
+          "primaryText": {
+            "text": "",
+            "type": "PlainText"
+          },
+          "secondaryText": {
+            "text": "",
+            "type": "PlainText"
+          },
+          "tertiaryText": {
+            "text": "",
+            "type": "PlainText"
+          }
+        }
+      },
+      {
+        "token": "bird",
+        "image": {
+          "contentDescription": "",
+          "sources": [
+            {
+              "url": "https://s3.eu-central-1.amazonaws.com/apoplex/select/0/3.jpg",
+              "widthPixels": 300,
+              "heightPixels": 300,
+              "size": "X_SMALL"
+            }
+          ]
+        },
+        "textContent": {
+          "primaryText": {
+            "text": "",
+            "type": "PlainText"
+          },
+          "secondaryText": {
+            "text": "",
+            "type": "PlainText"
+          },
+          "tertiaryText": {
+            "text": "",
+            "type": "PlainText"
+          }
+        }
+      }
+    ]
+  },
+  {
+    "questionType": "SELECT",
+    "question": "Welches der Bilder stellt einen Vogel dar?",
+    "rightAnswer": "bird",
+    "answers": [
+      {
+        "token": "cat",
+        "image": {
+          "contentDescription": "",
+          "sources": [
+            {
+              "url": "https://s3.eu-central-1.amazonaws.com/apoplex/select/0/0.jpg",
+              "widthPixels": 300,
+              "heightPixels": 300,
+              "size": "X_SMALL"
+            }
+          ]
+        },
+        "textContent": {
+          "primaryText": {
+            "text": "",
+            "type": "PlainText"
+          },
+          "secondaryText": {
+            "text": "",
+            "type": "PlainText"
+          },
+          "tertiaryText": {
+            "text": "",
+            "type": "PlainText"
+          }
+        }
+      },
+      {
+        "token": "dog",
+        "image": {
+          "contentDescription": "",
+          "sources": [
+            {
+              "url": "https://s3.eu-central-1.amazonaws.com/apoplex/select/0/1.jpg",
+              "widthPixels": 300,
+              "heightPixels": 300,
+              "size": "X_SMALL"
+            }
+          ]
+        },
+        "textContent": {
+          "primaryText": {
+            "text": "",
+            "type": "PlainText"
+          },
+          "secondaryText": {
+            "text": "",
+            "type": "PlainText"
+          },
+          "tertiaryText": {
+            "text": "",
+            "type": "PlainText"
+          }
+        }
+      },
+      {
+        "token": "mouse",
+        "image": {
+          "contentDescription": "",
+          "sources": [
+            {
+              "url": "https://s3.eu-central-1.amazonaws.com/apoplex/select/0/2.jpg",
+              "widthPixels": 300,
+              "heightPixels": 300,
+              "size": "X_SMALL"
+            }
+          ]
+        },
+        "textContent": {
+          "primaryText": {
+            "text": "",
+            "type": "PlainText"
+          },
+          "secondaryText": {
+            "text": "",
+            "type": "PlainText"
+          },
+          "tertiaryText": {
+            "text": "",
+            "type": "PlainText"
+          }
+        }
+      },
+      {
+        "token": "bird",
+        "image": {
+          "contentDescription": "",
+          "sources": [
+            {
+              "url": "https://s3.eu-central-1.amazonaws.com/apoplex/select/0/3.jpg",
+              "widthPixels": 300,
+              "heightPixels": 300,
+              "size": "X_SMALL"
+            }
+          ]
+        },
+        "textContent": {
+          "primaryText": {
+            "text": "",
+            "type": "PlainText"
+          },
+          "secondaryText": {
+            "text": "",
+            "type": "PlainText"
+          },
+          "tertiaryText": {
+            "text": "",
+            "type": "PlainText"
+          }
+        }
+      }
+    ]
+  }
+]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "tum-tech-challange",
+  "version": "1.0.0",
+  "description": "This projects uses alexa and ibm watson.",
+  "author": "Sebastain Erhardt",
+  "license": "",
+  "dependencies": {
+    "alexa-sdk": "^1.0.24",
+    "require": "^2.4.20"
+  }
+}

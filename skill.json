@@ -1,0 +1,189 @@
+{
+  "languageModel": {
+    "types": [
+      {
+        "name": "DESCRIPTION",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "Schere",
+              "synonyms": [
+                "scheren",
+                "schnipp schnapp",
+                "scheren"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Elefant",
+              "synonyms": [
+                "elefant",
+                "asiatischer elefant",
+                "afrikanischer elefant",
+                "erwachsener elefant",
+                "elefanten"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Tiger",
+              "synonyms": [
+                "tiger",
+                "großkatze"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Hammer",
+              "synonyms": [
+                "holz hammer",
+                "klauenhammer"
+              ]
+            }
+          }
+        ]
+      },
+      {
+        "name": "YESNO",
+        "values": [
+          {
+            "id": null,
+            "name": {
+              "value": "Ja",
+              "synonyms": [
+                "jo",
+                "yes",
+                "jep"
+              ]
+            }
+          },
+          {
+            "id": null,
+            "name": {
+              "value": "Nein",
+              "synonyms": [
+                "ne",
+                "nien",
+                "no"
+              ]
+            }
+          }
+        ]
+      }
+    ],
+    "intents": [
+      {
+        "name": "AMAZON.CancelIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.HelpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.MoreIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.NavigateSettingsIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.NextIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.PageDownIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.PageUpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.PauseIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.PreviousIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.ScrollDownIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.ScrollLeftIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.ScrollRightIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.ScrollUpIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StartOverIntent",
+        "samples": []
+      },
+      {
+        "name": "AMAZON.StopIntent",
+        "samples": []
+      },
+      {
+        "name": "AnswerImageIntent",
+        "samples": [],
+        "slots": [
+          {
+            "name": "ANSWER",
+            "type": "AMAZON.NUMBER"
+          }
+        ]
+      },
+      {
+        "name": "AnswerIntent",
+        "samples": [
+          "{YESNO}",
+          "{DESCRIPTION}",
+          "ein {DESCRIPTION}",
+          "eine {DESCRIPTION}",
+          "das ist ein {DESCRIPTION}",
+          "das ist eine {DESCRIPTION}"
+        ],
+        "slots": [
+          {
+            "name": "YESNO",
+            "type": "YESNO"
+          },
+          {
+            "name": "DESCRIPTION",
+            "type": "DESCRIPTION"
+          }
+        ]
+      },
+      {
+        "name": "Emergency",
+        "samples": [],
+        "slots": []
+      },
+      {
+        "name": "QuizIntent",
+        "samples": [
+          "start",
+          "los"
+        ],
+        "slots": []
+      }
+    ],
+    "invocationName": "apoplex"
+  }
+}

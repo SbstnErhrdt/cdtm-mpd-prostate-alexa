@@ -1,0 +1,56 @@
+{
+  "questions": [
+    {
+      "questionType": "DESCRIBE",
+      "question": "Welchen Gegenstand sehen sie auf diesem Bild?",
+      "rightAnswer": "schere",
+      "image": {
+        "contentDescription": "0",
+        "sources": [
+          {
+            "url": "https://s3.eu-central-1.amazonaws.com/apoplex/describe/1.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "questionType": "DESCRIBE",
+      "question": "Welches Tier sehen sie auf diesem Bild?",
+      "rightAnswer": "tiger",
+      "image": {
+        "contentDescription": "0",
+        "sources": [
+          {
+            "url": "https://s3.eu-central-1.amazonaws.com/apoplex/describe/2.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "questionType": "DESCRIBE",
+      "question": "Welchen Gegenstand sehen sie auf dem Bild?",
+      "rightAnswer": "hammer",
+      "image": {
+        "contentDescription": "0",
+        "sources": [
+          {
+            "url": "https://s3.eu-central-1.amazonaws.com/apoplex/describe/3.jpg"
+          }
+        ]
+      }
+    },
+    {
+      "questionType": "DESCRIBE",
+      "question": "Welches Tier sehen sie auf diesem Bild?",
+      "rightAnswer": "elefant",
+      "image": {
+        "contentDescription": "0",
+        "sources": [
+          {
+            "url": "https://s3.eu-central-1.amazonaws.com/apoplex/describe/4.jpg"
+          }
+        ]
+      }
+    }
+  ]
+}

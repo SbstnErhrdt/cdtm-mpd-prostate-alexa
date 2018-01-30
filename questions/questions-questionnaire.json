@@ -1,0 +1,92 @@
+{
+  "questions": [
+    {
+      "questionType": "YESNO",
+      "question": "Haben Sie Kopfschmerzen?",
+      "answers": [
+        "Ja",
+        "Nein"
+      ],
+      "imageBackgroundUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/headache.jpg",
+      "imageSmallUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/headache.jpg",
+      "imageLargeUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/headache.jpg"
+    },
+    {
+      "questionType": "YESNO",
+      "question": "Ist Ihr Sehvermögen beeinträchtigt?",
+      "answers": [
+        "Ja",
+        "Nein"
+      ],
+      "imageBackgroundUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/blur.jpg",
+      "imageSmallUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/blur.jpg",
+      "imageLargeUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/blur.jpg"
+    },
+    {
+      "questionType": "NOYES",
+      "question": "Können Sie Ihren linken Arm hochheben?",
+      "answers": [
+        "Ja",
+        "Nein"
+      ],
+      "imageBackgroundUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/hand-left.jpg",
+      "imageSmallUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/hand-left.jpg",
+      "imageLargeUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/hand-left.jpg"
+    },
+    {
+      "questionType": "NOYES",
+      "question": "Können Sie Ihren rechten Arm hochheben?",
+      "answers": [
+        "Ja",
+        "Nein"
+      ],
+      "imageBackgroundUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/hand-right.jpg",
+      "imageSmallUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/hand-right.jpg",
+      "imageLargeUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/hand-right.jpg"
+    },
+    {
+      "questionType": "YESNO",
+      "question": "Spüren Sie an einer Stelle im Körper eine Lähmung?",
+      "answers": [
+        "Ja",
+        "Nein"
+      ],
+      "imageBackgroundUrl": "",
+      "imageSmallUrl": "",
+      "imageLargeUrl": ""
+    },
+    {
+      "questionType": "YESNO",
+      "question": "Empfinden Sie eine Einschränkung Ihre Sprachverstehens?",
+      "answers": [
+        "Ja",
+        "Nein"
+      ],
+      "imageBackgroundUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/hear.jpg",
+      "imageSmallUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/hear.jpg",
+      "imageLargeUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/hear.jpg"
+    },
+    {
+      "questionType": "YESNO",
+      "question": "Empfinden Sie eine Einschränkung Ihrer Ausdrucksfähigkeit?",
+      "answers": [
+        "Ja",
+        "Nein"
+      ],
+      "imageBackgroundUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/speak.jpg",
+      "imageSmallUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/speak.jpg",
+      "imageLargeUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/speak.jpg"
+    },
+    {
+      "questionType": "YESNO",
+      "question": "Empfinden Sie ihre Bewegungen als unsicherer als gewöhnlich?",
+      "answers": [
+        "Ja",
+        "Nein"
+      ],
+      "imageBackgroundUrl": "",
+      "imageSmallUrl": "",
+      "imageLargeUrl": ""
+    }
+  ]
+}
