@@ -1,23 +1,8 @@
-# TECH CHALLENGE - Apoplex
-
-http://techchallenge.de/
+# CDTM MPD - Prostate
 
 # INTRODUCTION
 
-Three hours. That is the time you have to get help, 
-if you just suffered a stroke. However, 
-only 20% of the people reach the hospital in time. 
-The consequences of being late can be remaining brain damages or even death.
-We couldn't accept this low rate of 20% and thought of a potential solution. 
-
-Apoplex is an Alexa skill that helps with the recognition of 
-early-warning symptoms of strokes. 
-Early recognition of stroke symptoms is crucial in order to seek 
-help and undergo therapy as fast as possible. 
-
-The Apoplex skill was programmed in NodeJS, 
-runs on the Amazon Echo Show device and uses the AWS Lambda 
-and DynamoDB services. 
+Help prostate cancer patients to track symptoms via alex
 
 # THINGS USED IN THIS PROJECT
 
@@ -65,6 +50,8 @@ The user has to answer the predefined questions in the
 `questions/questions-questionnaire.json` with either YES or NO.
 
 ### Example dialogue:
+
+TODO
 
 Alexa: "Do you have a headache?"
 
@@ -185,11 +172,11 @@ https://stocksnap.io/photo/R8SYL6ROA1
 
 # Team 
 
-Martin Schleich    
+Saad
 
-Jasmin-Chiara  Bauer
+Ibrar
 
-Yasmin El Khodary
+Alfred
 
 Sebastian Erhardt 
 
