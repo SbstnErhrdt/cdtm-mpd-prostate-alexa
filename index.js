@@ -29,7 +29,8 @@ const speechConsWrong = ["Ok", "Thank you", "Understood"];
 
 // This is the welcome message for when a user starts the skill without a specific intent.
 const WELCOME_MESSAGE = "Hello and welcome to Prostate! <break time=\"300ms\"/> " +
-    "Pleas say start to begin with the test.";
+    "Your symptom tracking app for prostate cancer patients  <break time=\"300ms\"/>" +
+    "Please say start to begin with the test.";
 
 // This is the message a user will hear when they start a quiz.
 const START_QUIZ_MESSAGE = 'OK. I will ask you now a couple of questions. ' +
@@ -50,7 +51,9 @@ const EXIT_SKILL_MESSAGE = "Thank you very much for using pro-state";
 // const REPROMPT_SPEECH = "Können Sie das bitte wiederholen?";
 
 // This is the message a user will hear when they ask Alexa for help in your skill.
-const HELP_MESSAGE = "Please say start to begin with the test.";
+const HELP_MESSAGE = "Hello and welcome to Prostate! <break time=\"300ms\"/> " +
+    "Your symptom tracking app for prostate cancer patients  <break time=\"300ms\"/>" +
+    "Please say start to begin with the test.";
 
 
 // These next four values are for the Alexa cards that are created when a user asks about one of the data elements.
@@ -658,9 +661,9 @@ function getQuestion(item) {
 function getRightAnswer(questionType) {
     switch (questionType) {
         case "YESNO":
-            return "ja";
+            return "yes";
         case "NOYES":
-            return "nein";
+            return "no";
         default:
             return questionType
     }
@@ -670,9 +673,9 @@ function getRightAnswer(questionType) {
 function getWrongAnswer(questionType) {
     switch (questionType) {
         case "YESNO":
-            return "nein";
+            return "yes";
         case "NOYES":
-            return "ja";
+            return "no";
         default:
             return questionType
     }
