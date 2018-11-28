@@ -1,7 +1,7 @@
 {
-  "name": "tum-tech-challange",
+  "name": "cdtm-mpd-prostate-alexa",
   "version": "1.0.0",
-  "description": "This projects uses alexa and ibm watson.",
+  "description": "This projects uses alexa.",
   "author": "Sebastain Erhardt",
   "license": "",
   "dependencies": {

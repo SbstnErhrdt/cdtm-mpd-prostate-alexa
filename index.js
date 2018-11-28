@@ -24,34 +24,33 @@ const MAX_SELECT_QUESTIONS = 2;//;
 const MAX_DESCRIBE_QUESTIONS = 4;//;
 
 // Answers if the answer was right or wrong
-const speechConsCorrect = ["Ok", "Vielen Dank", "Verstanden"];
-const speechConsWrong = ["Ok", "Vielen Dank", "Verstanden"];
+const speechConsCorrect = ["Ok", "Thank you", "Understood"];
+const speechConsWrong = ["Ok", "Thank you", "Understood"];
 
 // This is the welcome message for when a user starts the skill without a specific intent.
-const WELCOME_MESSAGE = "Herzlich Willkommen bei Apoplex! <break time=\"300ms\"/> " +
-    "Sagen Sie Start um den Test zu beginnen.";
+const WELCOME_MESSAGE = "Hello and welcome to Pro-State! <break time=\"300ms\"/> " +
+    "Pleas say start to begin with the test.";
 
 // This is the message a user will hear when they start a quiz.
-const START_QUIZ_MESSAGE = 'OK. Ich werde Ihnen nun einige Fragen stellen.' +
-    'Bitte beantworten Sie diese mit Ja oder Nein. <break time=\"1s\"/>';
+const START_QUIZ_MESSAGE = 'OK. I will ask you now a couple of questions.' +
+    'Please answer with yes or now. <break time=\"1s\"/>';
 // This is the message a user will hear when they are in the select section of the skill
-const START_QUIZ_SELECT_MESSAGE = 'Ich werde Ihnen nun einige Bilder zeigen und jeweils eine Frage dazu stellen.' +
-    'Bitte drücken Sie dann auf das passende Bild.<break time=\"1s\"/>';
+const START_QUIZ_SELECT_MESSAGE = 'I will show you now a couple of images and ask you a question.' +
+    'Please press the image that fits the anwer.<break time=\"1s\"/>';
 // This is the message a user will hear when they are in the describe section of the skill
-const START_QUIZ_DESCRIBE_MESSAGE = 'Ich werde Ihnen nun jeweils ein Bild zeigen.<break time=\"0.5s\"/>';
+const START_QUIZ_DESCRIBE_MESSAGE = 'I will now show an image and will ask you a question.<break time=\"0.5s\"/>';
 
 // The user will hear the emergency understanding message if they have said not yes or no
-const EMERGENCY_UNDERSTANDING_MESSAGE = "Es scheint so als ob Ich Sie nicht verstehen kann." +
-    "Dies könnte an einer Beeinträchtigung Ihrer Ausdrucksfähigkeit liegen. Bitte kontaktieren Sie umgehend einen Arzt!";
+const EMERGENCY_UNDERSTANDING_MESSAGE = "It seems that I do not understand you.";
 
 // This is the message a user will hear when they try to cancel or stop the skill, or when they finish a quiz.
-const EXIT_SKILL_MESSAGE = "Vielen Dank für die Verwendung von Apoplex";
+const EXIT_SKILL_MESSAGE = "Thank you very much for using pro-state";
 
 // This is the message a user will hear after they ask (and hear) about a specific data element.
 // const REPROMPT_SPEECH = "Können Sie das bitte wiederholen?";
 
 // This is the message a user will hear when they ask Alexa for help in your skill.
-const HELP_MESSAGE = "Sagen Sie Start um den Test zu beginnen.";
+const HELP_MESSAGE = "Please say start to begin with the test.";
 
 
 // These next four values are for the Alexa cards that are created when a user asks about one of the data elements.
@@ -61,7 +60,7 @@ const HELP_MESSAGE = "Sagen Sie Start um den Test zu beginnen.";
 // If you set it to true, you will need an image for each
 //item in your data.
 const USE_IMAGES_FLAG = true;
-const IMAGE_FALLBACK = "https://s3.eu-central-1.amazonaws.com/apoplex/start.jpg";
+const IMAGE_FALLBACK = "https://s3.eu-central-1.amazonaws.com/prostate/start.jpg";
 
 //======================================================================================
 // EXTERNAL QUESTIONS
