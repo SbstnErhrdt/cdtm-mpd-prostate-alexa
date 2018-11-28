@@ -28,12 +28,12 @@ const speechConsCorrect = ["Ok", "Thank you", "Understood"];
 const speechConsWrong = ["Ok", "Thank you", "Understood"];
 
 // This is the welcome message for when a user starts the skill without a specific intent.
-const WELCOME_MESSAGE = "Hello and welcome to Pro-State! <break time=\"300ms\"/> " +
+const WELCOME_MESSAGE = "Hello and welcome to Prostate! <break time=\"300ms\"/> " +
     "Pleas say start to begin with the test.";
 
 // This is the message a user will hear when they start a quiz.
-const START_QUIZ_MESSAGE = 'OK. I will ask you now a couple of questions.' +
-    'Please answer with yes or now. <break time=\"1s\"/>';
+const START_QUIZ_MESSAGE = 'OK. I will ask you now a couple of questions. ' +
+    'Please answer with yes or no. <break time=\"1s\"/>';
 // This is the message a user will hear when they are in the select section of the skill
 const START_QUIZ_SELECT_MESSAGE = 'I will show you now a couple of images and ask you a question.' +
     'Please press the image that fits the anwer.<break time=\"1s\"/>';
@@ -97,7 +97,7 @@ const states = {
 const handlers = {
     "LaunchRequest": function () {
         this.handler.state = states.START;
-        this.emitWithState("Start");
+        this.emitWithState("start");
     },
     "QuizIntent": function () {
         this.handler.state = states.QUIZ;
@@ -133,7 +133,7 @@ const startHandlers = Alexa.CreateStateHandler(states.START, {
     },
     "AnswerIntent": function () {
         // Ask proactive questions
-        this.response.speak("Sagen Sie Start um loszulegen").listen("Weiter gehts!");
+        this.response.speak("Please say start to begin").listen("Lets go!");
         this.emit(":responseReady");
     },
     "QuizIntent": function () {
