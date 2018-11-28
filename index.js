@@ -281,9 +281,8 @@ const quizHandlers = Alexa.CreateStateHandler(states.QUIZ, {
                 this.emitWithState("Emergency");
             } else {
                 console.log("Not understood");
-                response = 'Ich habe Sie leider nicht verstanden.' +
-                    'Bitte beantworten Sie die Frage nur mit Ja oder Nein.' +
-                    'Ich wiederhole nun die Frage für Sie.<break time="1s"/>';
+                response = "I'm afraid I didn't hear you. Could you repeat the answer with either yes or no. " +
+                    'I now repeat the question for you. <break time="1s"/>';
                 this.attributes["response"] = response;
                 // Subtract state if correct answer
                 if (this.attributes["answerNotUnderstoodCounter"] > 0) {
@@ -448,7 +447,7 @@ const selectQuizHandlers = Alexa.CreateStateHandler(states.SELECTQUIZ, {
         } else {
             // If the score is higher than the threshold
             if (this.attributes["selectScore"] > EMERGENCY_SELECT_THRESHOLD) {
-                response = "Bitte kontaktieren Sie umgehend einen Arzt!";
+                response = "Please contact your doctor immediately!";
             } else {
                 // Jump to the next quiz section
                 // Go to Describe
@@ -544,7 +543,7 @@ const describeQuizHandlers = Alexa.CreateStateHandler(states.DESCRIBEQUIZ, {
             "templateToken": "DescribeView",
             "askOrTell": ":ask",
             "image": item.image,
-            "hint": "Bitte drücken Sie auf das richtige Bild.",
+            "hint": "Pleas press the right image.",
             "sessionAttributes": this.attributes
         };
         // Set the background image
