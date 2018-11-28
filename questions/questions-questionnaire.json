@@ -13,7 +13,7 @@
     },
     {
       "questionType": "YESNO",
-      "question": "Do have erectile dysfunction?",
+      "question": "Do you have erectile dysfunction?",
       "answers": [
         "yes",
         "no"
@@ -25,6 +25,39 @@
     {
       "questionType": "YESNO",
       "question": "Do you have pain in your legs?",
+      "answers": [
+        "yes",
+        "no"
+      ],
+      "imageBackgroundUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/hand-left.jpg",
+      "imageSmallUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/hand-left.jpg",
+      "imageLargeUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/hand-left.jpg"
+    },
+    {
+      "questionType": "YESNO",
+      "question": "Do you have pain in your back?",
+      "answers": [
+        "yes",
+        "no"
+      ],
+      "imageBackgroundUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/hand-left.jpg",
+      "imageSmallUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/hand-left.jpg",
+      "imageLargeUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/hand-left.jpg"
+    },
+    {
+      "questionType": "YESNO",
+      "question": "Do you feel fatigue?",
+      "answers": [
+        "yes",
+        "no"
+      ],
+      "imageBackgroundUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/hand-left.jpg",
+      "imageSmallUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/hand-left.jpg",
+      "imageLargeUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/hand-left.jpg"
+    },
+    {
+      "questionType": "YESNO",
+      "question": "Do you like the CDTM MPD session today?",
       "answers": [
         "yes",
         "no"

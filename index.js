@@ -11,13 +11,13 @@ const APP_ID = undefined;
 
 // Threshold of the max wrong answers
 // If there are more wrong answers than the threshold the call a doctor
-const EMERGENCY_QUESTION_THRESHOLD = 3;
-const EMERGENCY_SELECT_THRESHOLD = 2;
-const EMERGENCY_DESCRIBE_THRESHOLD = 2;
+const EMERGENCY_QUESTION_THRESHOLD = 10;
+const EMERGENCY_SELECT_THRESHOLD = 10;
+const EMERGENCY_DESCRIBE_THRESHOLD = 10;
 
-const EMERGENCY_UNDERSTANDING_THRESHOLD = 3;
+const EMERGENCY_UNDERSTANDING_THRESHOLD = 10;
 // How many questions of the questionnaire should be asked
-const MAX_QUESTIONS = 2;//8;
+const MAX_QUESTIONS = 6;//8;
 // How many image select questions should be asked
 const MAX_SELECT_QUESTIONS = 2;//;
 // How many image describe questions should be asked
@@ -672,9 +672,9 @@ function getRightAnswer(questionType) {
 function getWrongAnswer(questionType) {
     switch (questionType) {
         case "YESNO":
-            return "yes";
-        case "NOYES":
             return "no";
+        case "NOYES":
+            return "yes";
         default:
             return questionType
     }
@@ -765,9 +765,9 @@ function getRandomSymbolSpeech(symbol) {
 
 function getSpeechCon(type) {
     if (type) {
-        return "<say-as interpret-as='interjection'>" + speechConsCorrect[getRandom(0, speechConsCorrect.length - 1)] + "! </say-as><break strength='strong'/>";
+        return speechConsCorrect[getRandom(0, speechConsCorrect.length - 1)] + "! <break strength='strong'/>";
     } else {
-        return "<say-as interpret-as='interjection'>" + speechConsWrong[getRandom(0, speechConsWrong.length - 1)] + " </say-as><break strength='strong'/>";
+        return speechConsWrong[getRandom(0, speechConsWrong.length - 1)] + "! <break strength='strong'/>";
     }
 }
 
