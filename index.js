@@ -17,7 +17,7 @@ const EMERGENCY_DESCRIBE_THRESHOLD = 10;
 
 const EMERGENCY_UNDERSTANDING_THRESHOLD = 10;
 // How many questions of the questionnaire should be asked
-const MAX_QUESTIONS = 6;//8;
+const MAX_QUESTIONS = 3;//8;
 // How many image select questions should be asked
 const MAX_SELECT_QUESTIONS = 2;//;
 // How many image describe questions should be asked

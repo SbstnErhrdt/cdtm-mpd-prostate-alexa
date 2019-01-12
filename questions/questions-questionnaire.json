@@ -2,28 +2,6 @@
   "questions": [
     {
       "questionType": "YESNO",
-      "question": "Do you have blood in your urin?",
-      "answers": [
-        "yes",
-        "no"
-      ],
-      "imageBackgroundUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/headache.jpg",
-      "imageSmallUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/headache.jpg",
-      "imageLargeUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/headache.jpg"
-    },
-    {
-      "questionType": "YESNO",
-      "question": "Do you have erectile dysfunction?",
-      "answers": [
-        "yes",
-        "no"
-      ],
-      "imageBackgroundUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/blur.jpg",
-      "imageSmallUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/blur.jpg",
-      "imageLargeUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/blur.jpg"
-    },
-    {
-      "questionType": "YESNO",
       "question": "Do you have pain in your legs?",
       "answers": [
         "yes",
@@ -54,6 +32,28 @@
       "imageBackgroundUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/hand-left.jpg",
       "imageSmallUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/hand-left.jpg",
       "imageLargeUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/hand-left.jpg"
+    },
+    {
+      "questionType": "YESNO",
+      "question": "Do you have blood in your urin?",
+      "answers": [
+        "yes",
+        "no"
+      ],
+      "imageBackgroundUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/headache.jpg",
+      "imageSmallUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/headache.jpg",
+      "imageLargeUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/headache.jpg"
+    },
+    {
+      "questionType": "YESNO",
+      "question": "Do you have erectile dysfunction?",
+      "answers": [
+        "yes",
+        "no"
+      ],
+      "imageBackgroundUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/blur.jpg",
+      "imageSmallUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/blur.jpg",
+      "imageLargeUrl": "https://s3.eu-central-1.amazonaws.com/apoplex/blur.jpg"
     },
     {
       "questionType": "YESNO",
